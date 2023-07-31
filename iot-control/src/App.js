@@ -24,10 +24,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>React File Writer</h1>
-        <button onClick={this.handleButton1Click}>ON</button> &nbsp;&nbsp;
-        <button onClick={this.handleButton2Click}>OFF</button>
+      <div class="container">
+        <p class="display-4">IoT Device Control</p>
+        <button onClick={this.handleButton1Click} class="btn btn-success">ON</button> &nbsp;&nbsp;
+        <button onClick={this.handleButton2Click} class="btn btn-danger">OFF</button>
       </div>
     );
   }
